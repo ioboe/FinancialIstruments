@@ -20,3 +20,18 @@ Open your terminal and run the following command to clone the repository:
 ```sh
 git clone <your-repo-url>
 cd <your-repo-directory>
+```
+
+### 2. Install Dependencies
+Navigate to the project directory and restore the dependencies:
+```sh
+cd <your-repo-directory>
+dotnet restore
+```
+
+### 3. Build the Project
+Build the project using the following command:
+Navigate to the project directory and restore the dependencies:
+```sh
+dotnet build
+```
